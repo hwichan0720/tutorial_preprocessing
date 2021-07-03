@@ -1,0 +1,5 @@
+app
+*.txt
+data/*
+*model*
+.ipynb_checkpoints
