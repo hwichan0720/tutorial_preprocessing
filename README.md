@@ -6,19 +6,19 @@
 ## Build docker iamge
 ~~~
 cd dockerfiles
-docker build -t user_name/image_name .
+docker build -t  ユーザー名/イメージ名 .
 ~~~
 
 ## Run docker container
 
 ~~~
 cd 作業したいディレクトリ
-docker run -v `pwd`:/home --gpus all -it user_name/image_name
+docker run -v `pwd`:/home --gpus all -it ユーザー名/イメージ名
 ~~~
 
 jupyter lab
 ~~~
-docker run -it --rm --gpus all -v `pwd`:/home -p ホスト側のポート番号:コンテナ側のポート番号  jp-bart jupyter lab --port ホスト側のポート番号 --ip=0.0.0.0 --allow-root --no-browser
+docker run -it --rm --gpus all -v `pwd`:/home -p ホスト側のポート番号:コンテナ側のポート番号 ユーザー名/イメージ名 jupyter lab --port ホスト側のポート番号 --ip=0.0.0.0 --allow-root --no-browser
 ~~~
 
 
