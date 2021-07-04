@@ -1,5 +1,5 @@
 app
 *.txt
-data/*
 *model*
+*.en
 .ipynb_checkpoints
