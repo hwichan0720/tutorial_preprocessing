@@ -3,7 +3,7 @@
   - https://docs.google.com/presentation/d/1U6WVIdHlEYPvazCr72b125uDyYWVr5ucgtvY2s9i_Fw/edit#slide=id.p
  
 
-## Build docker iamge
+## Build docker image
 ~~~
 cd dockerfiles
 docker build -t  ユーザー名/イメージ名 .
